@@ -1,5 +1,6 @@
 def weight_on_planets():
-   # write your code here
+   weight_earth = int(input("What do you weigh on earth? "))
+   print("\nOn Mars you would weigh %.2f pounds.\nOn Jupiter you would weigh %.2f pounds."%(weight_earth*0.38,weight_earth*2.34))
    
    
    
